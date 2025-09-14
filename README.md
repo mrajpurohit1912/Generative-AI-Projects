@@ -15,11 +15,6 @@ cd Generative-AI-Projects
 
 ## Running a Project
 
-Each project is standalone. Example:
-
-```bash
-cd 1_customer_churning
-
 # Create virtual environment
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
@@ -35,8 +30,6 @@ poetry install
 
 ---
 
-### Notes / Extra Info
-```markdown
 ## Notes
 
 - You can use one environmet for every project no need to install  separate virtual environments for each project.  
