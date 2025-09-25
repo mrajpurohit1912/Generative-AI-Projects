@@ -1,36 +1,23 @@
-# GENERATIVE AI Repository
+🤖 Microsoft Autogen LLM Chatbot
 
-This repository contains multiple basic generative AI projects.  
+This repository contains multiple generative AI projects, including a Retrieval-Augmented Generation (RAG) chatbot built using Microsoft Autogen and LLMs. The projects demonstrate how to build, run, and extend AI-powered applications.
 
-
-## Clone the Repository
-
-To use the projects repo:
+📥 Clone the Repository
 ```bash
 git clone https://github.com/mrajpurohit1912/Generative-AI-Projects.git
 cd Generative-AI-Projects
+```
+▶️ Running a Project
 
-
----
-
-## Running a Project
-
-# Create virtual environment
+1. Create a virtual environment
+```bash
 python -m venv .venv
-source .venv/bin/activate   # Linux/Mac
-.venv\Scripts\activate      # Windows
-
-# Install dependencies
-pip install .
-# OR
-poetry install
-
-
-
-
----
-
-## Notes
-
-- You can use one environmet for every project no need to install  separate virtual environments for each project.  
-- You can contribute by adding new projects following the same structure.  
+# Activate environment
+source .venv/bin/activate    # Linux/Mac
+.venv\Scripts\activate       # Windows
+```
+2. Install dependencies
+   ```bash
+   pip install .
+    # OR (for development mode)
+    pip install -e .
