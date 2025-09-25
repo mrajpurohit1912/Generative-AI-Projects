@@ -4,7 +4,7 @@ This repository contains multiple generative AI projects, including a Retrieval-
 
 📥 Clone the Repository
 ```bash
-git clone https://github.com/mrajpurohit1912/Generative-AI-Projects.git
+git clone https://github.com/mrajpurohit1912/Microsoft-Autogen-LLM-Chatbot.git
 cd Generative-AI-Projects
 ```
 ▶️ Running a Project
